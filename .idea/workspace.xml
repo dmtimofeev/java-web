@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98d08b4f-52fb-41aa-8a68-a56732660a8a" name="Default" comment="auth + filters">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/filters/AuthFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/filters/LogFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/java_web_war_exploded/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/java_web_war_exploded/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/java_web_war_exploded/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/java_web_war_exploded/images/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/java_web_war_exploded/images/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/java_web_war_exploded/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/java_web_war_exploded/login.jsp" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+              <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -745,7 +739,7 @@
       <updated>1521699733269</updated>
       <workItem from="1521699736799" duration="10315000" />
       <workItem from="1521712291742" duration="30000" />
-      <workItem from="1521712420254" duration="2641000" />
+      <workItem from="1521712420254" duration="2894000" />
     </task>
     <task id="LOCAL-00001" summary="draft">
       <created>1521700507655</created>
@@ -758,7 +752,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12986000" />
+    <option name="totallyTimeSpent" value="13239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1046,7 +1040,7 @@
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
           <folding />
         </state>
       </provider>
