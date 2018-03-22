@@ -33,7 +33,7 @@ public class AuthFilter implements Filter {
                     response.setStatus(403);
                 }
             } else {
-                String hacker = req.getParameter("hacker");
+                String hacker = req.getParameter("hacker_ф");
                 if (hacker != null) {
                     req.getSession().setAttribute("myAuth", hacker.equals("no") ? "i_am_not_a_hacker" : "i_am_a_hacker");
                     response.sendRedirect(((HttpServletRequest) servletRequest).getContextPath() + "/index.jsp");
