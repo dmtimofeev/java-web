@@ -4,6 +4,14 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
+    <servlet>
+        <servlet-name>dataTable</servlet-name>
+        <servlet-class>ru.servlets.DataTableServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dataTable</servlet-name>
+        <url-pattern>/bl/dataTable</url-pattern>
+    </servlet-mapping>
 
     <filter>
         <filter-name>EncodingFilter</filter-name>
@@ -35,6 +43,7 @@
         <filter-name>authFilter</filter-name>
         <url-pattern>*.jsp</url-pattern>
         <url-pattern>*.do</url-pattern>
+        <url-pattern>/bl/*</url-pattern>
     </filter-mapping>
 
 
