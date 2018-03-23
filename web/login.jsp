@@ -14,10 +14,10 @@
         <form action="/login.do" method="post" class="middle__form">
             <div style="text-align: center;color: white;">
                 <input type="radio" id="i_am_hacker" name="hacker_ф" value="yes">
-                <label for="i_am_hacker">Я хаккер)</label>
+                <label for="i_am_hacker">Я хакер)</label>
 
                 <input type="radio" id="i_am_not_hacker" name="hacker_ф" value="no">
-                <label for="i_am_not_hacker">Я не хаккер!!!</label>
+                <label for="i_am_not_hacker">Я не хакер!!!</label>
             </div>
             <input type="submit" value="Подтвердить">
         </form>

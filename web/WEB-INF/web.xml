@@ -23,17 +23,17 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
-    <!--Declaring a filter named logFilter-->
-    <filter>
-        <filter-name>logFilter</filter-name>
-        <filter-class>ru.filters.LogFilter</filter-class>
-    </filter>
+    <!--&lt;!&ndash;Declaring a filter named logFilter&ndash;&gt;-->
+    <!--<filter>-->
+        <!--<filter-name>logFilter</filter-name>-->
+        <!--<filter-class>ru.filters.LogFilter</filter-class>-->
+    <!--</filter>-->
 
-    <!--Declare the path (of the page) will have the effect of logFilter for all paths-->
-    <filter-mapping>
-        <filter-name>logFilter</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
+    <!--&lt;!&ndash;Declare the path (of the page) will have the effect of logFilter for all paths&ndash;&gt;-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>logFilter</filter-name>-->
+        <!--<url-pattern>/*</url-pattern>-->
+    <!--</filter-mapping>-->
 
     <filter>
         <filter-name>authFilter</filter-name>
@@ -46,6 +46,13 @@
         <url-pattern>/bl/*</url-pattern>
     </filter-mapping>
 
+    <listener>
+        <listener-class>ru.listeners.SessionListener</listener-class>
+    </listener>
+
+    <listener>
+        <listener-class>ru.listeners.RqListener</listener-class>
+    </listener>
 
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>

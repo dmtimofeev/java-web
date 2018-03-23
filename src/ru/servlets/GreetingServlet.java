@@ -25,7 +25,7 @@ public class GreetingServlet extends HttpServlet {
         response.setBufferSize(8192);
         try (PrintWriter out = response.getWriter()) {
             out.println("<html lang=\"en\">"
-                    + "<head><title>Servlet Hello</title></head>");
+                    + "<head><title>Servlet: Hello, "+request.getParameter("username")+"</title></head>");
 
             // then write the data of the response
             out.println("<body  bgcolor=\"#ffffff\">"
